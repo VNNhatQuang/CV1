@@ -1,0 +1,75 @@
+/* PC */
+
+@media (max-width: 1024px) {}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    #page {
+        margin: 100px 20px 40px;
+    }
+    #header {
+        height: 70px;
+    }
+    .down-cv {
+        margin-top: 12px;
+    }
+    .down-cv>i {
+        margin-right: 2px;
+    }
+    .down-cv>a,
+    .down-cv>i {
+        font-size: 26px;
+    }
+    #heading>.content {
+        padding-right: 0px;
+    }
+    #info-2 {
+        display: flow-root;
+    }
+    #study {
+        margin: 0px 0px 30px 30px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 740px) {
+    #page {
+        margin: 80px 10px 20px;
+    }
+    #header {
+        height: 70px;
+    }
+    .down-cv {
+        display: inline-block;
+        margin-top: 18px;
+    }
+    .down-cv>i {
+        margin-right: 2px;
+    }
+    .down-cv>a,
+    .down-cv>i {
+        font-size: 20px;
+    }
+    #heading>.content {
+        margin: 20px;
+        padding: 0;
+        text-align: center;
+    }
+    .content>.ava {
+        margin-left: calc(320px/4);
+        /* margin-right: 20px; */
+    }
+    .name>h2 {
+        font-size: 26px;
+    }
+    #target {
+        margin: 50px 0 50px;
+    }
+    #study {
+        margin: 0;
+    }
+}

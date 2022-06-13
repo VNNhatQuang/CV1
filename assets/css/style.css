@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #E6E6E6;
+}
+
+#page {
+    display: inline-block;
+    margin: 70px 200px 40px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 7px rgb(0 0 0 / 30%);
+    padding: 20px 20px;
+}
+
+.title {
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: -22px;
+    background: #faf6c6;
+    display: inline-block;
+    margin-bottom: -35px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+p {
+    color: #496c92;
+}
+
+.title>h3 {
+    color: #ff881d;
+}
+
+
+/* HEADER */
+
+#header {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(240, 242, 245);
+    box-shadow: 0 0 7px rgb(0 0 0 / 40%);
+    z-index: 1;
+}
+
+.down-cv {
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    padding: 7px;
+    background-color: #ff881d;
+    margin: 8px 15px 8px 0;
+    border-radius: 15px;
+}
+
+.down-cv:hover {
+    background-color: #feb16e;
+    transition-duration: 0.5s;
+}
+
+.down-cv>a,
+.down-cv>i {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* HEADING */
+
+#heading {
+    width: 100%;
+    background: #caeff5;
+    text-align: left;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#heading>.content {
+    display: inline-block;
+    margin: 20px 70px;
+    padding-right: 100px;
+}
+
+.ava {
+    width: 160px;
+    float: left;
+    margin-right: 30px;
+}
+
+.ava>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.name>h2 {
+    text-transform: uppercase;
+    color: #ff881d;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.name>h3 {
+    color: #496c92;
+    font-size: 20px;
+}
+
+
+/* INFO-1 */
+
+#info-1 {
+    float: left;
+}
+
+
+/* Contact */
+
+#contact {
+    position: relative;
+    margin: 35px 0 50px 0;
+}
+
+.contact-content {
+    width: fit-content;
+    color: #496c92;
+    background: #caeff5;
+    padding: 30px 15px 15px 15px;
+    border-radius: 30px;
+}
+
+.contact-content>p {
+    margin: 10px 0;
+}
+
+.contact-content>p>i {
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    background-color: #ff881d;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 4.5px;
+    margin-right: 5px;
+}
+
+.contact-content>p>a {
+    color: #496c92;
+}
+
+
+/* Skill */
+
+#skill {
+    position: relative;
+    margin-top: 35px;
+}
+
+.skill-content {
+    width: 359.56px;
+    color: #496c92;
+    background: #caeff5;
+    padding: 30px 15px 15px 15px;
+    border-radius: 30px;
+}
+
+.content-section {
+    margin: 10px 0;
+}
+
+.content-section>h4 {
+    color: #ff881d;
+}
+
+
+/* INFO-2 */
+
+#info-2 {
+    display: inline-block;
+}
+
+
+/* Target */
+
+#target {
+    display: inline-block;
+    margin: 35px 0 50px 30px;
+    max-width: 430px;
+}
+
+.target-content {
+    width: auto;
+    color: #496c92;
+    background: #caeff5;
+    padding: 30px 15px 15px 15px;
+    border-radius: 30px;
+}
+
+
+/* Study */
+
+#study {
+    /* display: block; */
+    max-width: 430px;
+    margin: 30px 0px 30px 30px;
+}
+
+.study-title {
+    display: inline-block;
+    background: #caeff5;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.study-title>h3 {
+    color: #ff881d;
+}
+
+.study-content {
+    width: fit-content;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.symbol {
+    float: left;
+    height: 100%;
+}
+
+.symbol>p {
+    background: #caeff5;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+.symbol>p>i {
+    color: #496c92;
+    font-size: 20px;
+}
+
+.line {
+    width: 5px;
+    height: 100%;
+    background-color: #faf6c6;
+    margin-left: 17px;
+    position: absolute;
+}
+
+.study-detail {
+    margin-left: 60px;
+}
+
+.study-detail>h4 {
+    font-size: 17px;
+    color: #ff881d;
+}
+
+.study-detail>p {
+    display: list-item;
+    margin-left: 17px;
+}
