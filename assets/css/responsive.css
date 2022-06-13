@@ -1,9 +1,9 @@
 /* PC */
 
-@media (max-width: 1024px) {}
+@media (min-width: 1024px) {}
 
 
-/* Tablet */
+/* TABLET */
 
 @media (min-width: 740px) and (max-width: 1023px) {
     #page {
@@ -34,7 +34,7 @@
 }
 
 
-/* Mobile */
+/* MOBILE */
 
 @media (max-width: 740px) {
     #page {
@@ -54,22 +54,47 @@
     .down-cv>i {
         font-size: 20px;
     }
+    #heading {
+        text-align: center;
+        padding: 20px;
+    }
     #heading>.content {
+        width: 100%;
         margin: 20px;
         padding: 0;
-        text-align: center;
+        display: contents;
     }
     .content>.ava {
-        margin-left: calc(320px/4);
-        /* margin-right: 20px; */
+        width: 100%;
+    }
+    .ava>img {
+        width: 160px;
+        border-radius: 50%;
     }
     .name>h2 {
         font-size: 26px;
     }
+    #info-1 {
+        width: 100%;
+    }
+    .contact-content {
+        width: 100% !important;
+    }
+    .skill-content {
+        width: 100%;
+    }
+    #info-2 {
+        width: 100%;
+    }
     #target {
+        max-width: 100%;
         margin: 50px 0 50px;
+    }
+    .target-content {
+        width: 100%;
     }
     #study {
         margin: 0;
+        margin-left: 10px;
     }
 }
