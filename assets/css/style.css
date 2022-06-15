@@ -63,6 +63,7 @@ p {
 .down-cv:hover {
     background-color: #feb16e;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .down-cv>a,
