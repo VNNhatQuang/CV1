@@ -55,6 +55,18 @@ p {
     z-index: 1;
 }
 
+#date {
+    display: flex;
+    font-style: italic;
+    left: 0;
+    top: 50%;
+    bottom: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
 .down-cv {
     display: inline-block;
     right: 0;
